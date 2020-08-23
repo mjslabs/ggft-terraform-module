@@ -29,3 +29,5 @@ format: fmt
 lint:
 	@docker run --rm -v $(CURRENT_DIR):/data -t wata727/tflint
 
+.gitignore:
+	@curl -o .gitignore  'https://www.toptal.com/developers/gitignore/api/terraform,visualstudiocode,jetbrains+all,vim,macos,linux,windows'
